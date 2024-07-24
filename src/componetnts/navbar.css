@@ -1,0 +1,78 @@
+.cosh {
+  position: relative;
+}
+
+.cosh .shop-cart {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 450px;
+  -webkit-box-shadow: 6px 14px 14px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 14px 14px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 14px 14px -1px rgba(0, 0, 0, 0.75);
+  background-color: #ebebeb;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.cosh .shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.cosh .shop-cart .empty h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cosh .shop-cart .item img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+}
+.cosh .shop-cart .item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.cosh .shop-cart .item p {
+  color: #8a8080;
+  font-weight: 600;
+}
+.cosh .shop-cart .item .delete-icon {
+  color: rgb(170, 0, 0);
+  float: right;
+  position: relative;
+  cursor: pointer;
+  top: -25px;
+  transition: transform 500ms ease;
+}
+
+.cosh .shop-cart .item .delete-icon:hover {
+  color: rgb(95, 0, 0);
+  transform: scale(1.5);
+}
+.cosh .shop-cart .summa {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-container {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-blend-mode: multiply;
+  background-color: rgb(228, 192, 192);
+}
+.bg-container h2 {
+  margin: 0;
+  color: rgb(218, 233, 252);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
